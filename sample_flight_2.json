@@ -107,6 +107,98 @@
             "flight_date": "2026-08-13",
             "flight_status": "scheduled",
             "departure": {
+                "airport": "Usinsk",
+                "timezone": "Europe/Moscow",
+                "iata": "USK",
+                "icao": "UUYS",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-08-13T15:00:00+00:00",
+                "estimated": "2026-08-13T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Vnukovo",
+                "timezone": "Europe/Moscow",
+                "iata": "VKO",
+                "icao": "UUWW",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-08-13T17:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UTair",
+                "iata": "UT",
+                "icao": "UTA"
+            },
+            "flight": {
+                "number": "596",
+                "iata": "UT596",
+                "icao": "UTA596",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-08-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Frankfurt-Egelsbach Airport",
+                "timezone": null,
+                "iata": "QEF",
+                "icao": "EDFE",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-08-13T10:15:00+00:00",
+                "estimated": "2026-08-13T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Poprad/Tatry",
+                "timezone": "Europe/Bratislava",
+                "iata": "TAT",
+                "icao": "LZTT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-08-13T12:46:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-08-13",
+            "flight_status": "scheduled",
+            "departure": {
                 "airport": "Simao",
                 "timezone": "Asia/Shanghai",
                 "iata": "SYM",
@@ -5239,115 +5331,6 @@
                 "iata": null,
                 "icao": null,
                 "icao24": "A4478D"
-            },
-            "live": null
-        },
-        {
-            "flight_date": "2026-08-13",
-            "flight_status": "scheduled",
-            "departure": {
-                "airport": "Dallas/Fort Worth International",
-                "timezone": "America/Chicago",
-                "iata": "DFW",
-                "icao": "KDFW",
-                "terminal": "E",
-                "gate": "E14",
-                "delay": null,
-                "scheduled": "2026-08-13T07:00:00+00:00",
-                "estimated": "2026-08-13T07:00:00+00:00",
-                "actual": null,
-                "estimated_runway": null,
-                "actual_runway": null
-            },
-            "arrival": {
-                "airport": "Minneapolis - St. Paul International",
-                "timezone": "America/Chicago",
-                "iata": "MSP",
-                "icao": "KMSP",
-                "terminal": "1",
-                "gate": "F1",
-                "baggage": "8",
-                "scheduled": "2026-08-13T09:30:00+00:00",
-                "delay": null,
-                "estimated": null,
-                "actual": null,
-                "estimated_runway": null,
-                "actual_runway": null
-            },
-            "airline": {
-                "name": "Korean Air",
-                "iata": "KE",
-                "icao": "KAL"
-            },
-            "flight": {
-                "number": "3872",
-                "iata": "KE3872",
-                "icao": "KAL3872",
-                "codeshared": {
-                    "airline_name": "delta air lines",
-                    "airline_iata": "dl",
-                    "airline_icao": "dal",
-                    "flight_number": "1276",
-                    "flight_iata": "dl1276",
-                    "flight_icao": "dal1276"
-                }
-            },
-            "aircraft": {
-                "registration": null,
-                "iata": null,
-                "icao": null,
-                "icao24": "A4478D"
-            },
-            "live": null
-        },
-        {
-            "flight_date": "2026-08-13",
-            "flight_status": "scheduled",
-            "departure": {
-                "airport": "Dallas/Fort Worth International",
-                "timezone": "America/Chicago",
-                "iata": "DFW",
-                "icao": "KDFW",
-                "terminal": "E",
-                "gate": "E16",
-                "delay": null,
-                "scheduled": "2026-08-13T07:00:00+00:00",
-                "estimated": "2026-08-13T07:00:00+00:00",
-                "actual": null,
-                "estimated_runway": null,
-                "actual_runway": null
-            },
-            "arrival": {
-                "airport": "LaGuardia",
-                "timezone": "America/New_York",
-                "iata": "LGA",
-                "icao": "KLGA",
-                "terminal": "C",
-                "gate": "89A",
-                "baggage": null,
-                "scheduled": "2026-08-13T11:29:00+00:00",
-                "delay": null,
-                "estimated": null,
-                "actual": null,
-                "estimated_runway": null,
-                "actual_runway": null
-            },
-            "airline": {
-                "name": "Delta Air Lines",
-                "iata": "DL",
-                "icao": "DAL"
-            },
-            "flight": {
-                "number": "551",
-                "iata": "DL551",
-                "icao": "DAL551",
-                "codeshared": null
-            },
-            "aircraft": {
-                "registration": null,
-                "iata": null,
-                "icao": null,
-                "icao24": "A45586"
             },
             "live": null
         }
